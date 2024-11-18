@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Styles</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Inputs</h2>
+        <div class="inputs">
+            <input type="text" placeholder="Enter some text" class="default-input">
+            <div class="input-group valid">
+                <input type="text" value="valid text" readonly>
+                <span class="icon">✔</span>
+            </div>
+            <div class="input-group invalid">
+                <input type="text" value="invalid text" readonly>
+                <span class="icon2">✖</span>
+            </div>
+        </div>
+
+        <h2>Check boxes</h2>
+        <div class="checkbox-group">
+            <label class="switch green">
+                <input type="checkbox" checked>
+                <span class="slider"></span>
+                <span>Subscribe</span>
+            </label>
+            <label class="switch pink">
+                <input type="checkbox">
+                <span class="slider"></span>
+                <span>Subscribe</span>
+            </label>
+        </div>
+
+        <h2>Radio buttons</h2>
+        <div class="radio-group">
+            <label class="radio-label">Gender:</label>
+            <label>
+                <input type="radio" name="gender" checked>
+                <span>Male</span>
+            </label>
+            <label>
+                <input type="radio" name="gender">
+                <span>Female</span>
+            </label>
+        </div>
+
+        <h2>Buttons</h2>
+        <div class="buttons">
+            <button class="active">Active</button>
+            <button class="hover">Hover</button>
+            <button class="danger">Danger</button>
+            <button class="hover1">Hover</button>
+            <button class="disabled" disabled>Disabled</button>
+            <button class="icon-button">+</button>
+            <button class="icon-button1">-</button>
+        </div>
+
+        <h2>Text area</h2>
+        <textarea placeholder="Enter some text..."></textarea>
+    </div>
+</body>
+</html>
